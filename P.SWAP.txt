@@ -1,0 +1,18 @@
+//Swapping of numbers without 3rd varialble//
+
+a=int(input("enter the a value:"))
+b=int(input("enter the b value:"))
+a=a+b
+b=a-b
+a=a-b
+print("after swapping:")
+print("a=",a)
+print("b=",b)
+
+OUTPUT
+enter the a value:5
+enter the b value:3
+after swapping:
+a= 3
+b= 5
+> 
